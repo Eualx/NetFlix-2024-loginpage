@@ -23,7 +23,7 @@ function App() {
     onAuthStateChanged(auth, async (user) => {
       if (user) {
         console.log("Logged In");
-        // navigate("/");
+        navigate("/");
       } else {
         console.log("Logged Out");
         navigate("/getstarted");

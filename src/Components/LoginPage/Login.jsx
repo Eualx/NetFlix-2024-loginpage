@@ -61,7 +61,6 @@ function Login() {
             placeholder="Password"
           />
           <button onClick={user_auth} type="submit">
-            {" "}
             {SignState}
           </button>
           {SignState === "Sign In" ? 
